@@ -1,0 +1,70 @@
+
+
+<!-- Content Start -->
+<div class="content">
+
+
+
+    
+
+
+    <!-- Recent Sales Start -->
+    <div class="container-fluid pt-4 px-4">
+        <div class="bg-light text-center rounded p-4">
+            <div class="d-flex align-items-center justify-content-between mb-4">
+                <table class="table">
+  <thead>
+ 
+  </thead>
+
+</table>
+            </div>
+            <div class="table-responsive">
+                <table class="table text-start align-middle table-bordered table-hover mb-0">
+                    <thead>
+                        <tr class="text-dark">
+                            <th scope="col">#</th>
+                        <th scope="col">title</th>
+                        <th scope="col">Description</th>
+                       
+                        <th scope="col">kitchen</th>
+
+                        <th scope="col">livingroom</th>
+                        <th scope="col">picture</th>
+                        <th scope="col">price</th>
+                        <th scope="col">realisationprice</th>
+                        <th scope="col">room1</th>
+                        <th scope="col">room2</th>
+                        <th scope="col">wc</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <tr *ngFor="let i of list ">
+                                <td>    {{ i.planid }}</td>
+                               <td>{{i.title}}</td>
+                              <td>{{i.description}}</td>
+                                <td>{{i.kitchen}}</td>
+                                <td>{{i.livingroom}}</td>
+                                <td>{{i.picture}}</td>
+                                <td>{{i.price}}</td>
+    
+                                <td>{{i.realizationprice}}</td>
+                                <td>{{i.room1}}</td>
+                                <td>{{i.room2}}</td>
+                                <td>{{i.wc}}</td>
+                                <td><button>sup</button></td>
+                               
+    
+    
+                              
+                        </tr>
+                       
+                       
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- Recent Sales End -->
+</div>
